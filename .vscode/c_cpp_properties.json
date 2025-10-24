@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "name": "PROS Project",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "c:\\Users\\82024\\Desktop\\pushback-75533M\\pushback-z\\pushback\\include",
+        "c:\\Users\\82024\\Desktop\\pushback-75533Mpast\\pushback-75533M\\pushback-z\\pushback\\include",
+        "c:\\Users\\82024\\Desktop\\pbSoloAWP\\pushback\\include",
+        "c:\\Users\\82024\\Desktop\\pb prog test\\pushback\\include",
+        "c:\\Users\\82024\\Desktop\\pb V1.X 75533M\\include",
+        "d:\\HuaweiMoveData\\Users\\82024\\Desktop\\pb V1.X 75533M\\include",
+        "d:\\HuaweiMoveData\\Users\\82024\\Desktop\\pb V1.X Skill\\include",
+        "/Users/frank.zuo/Desktop/Robotics/2025_2026/VRC/pb V1.X Skill 65/include"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "compilerPath": "/Users/frank.zuo/Library/Application Support/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-macos/bin/arm-none-eabi-g++",
+      "cStandard": "gnu11",
+      "cppStandard": "gnu++20",
+      "intelliSenseMode": "gcc-arm",
+      "macFrameworkPath": [
+        "/System/Library/Frameworks"
+      ],
+      "browse": {
+        "path": [
+          "/Users/frank.zuo/Desktop/Robotics/2025_2026/VRC/pb V1.X Skill 65"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      }
+    }
+  ],
+  "version": 4
+}
