@@ -285,7 +285,7 @@ score();
 	chassis.waitUntilDone();
 	pros::delay(1000);
 	//loader 3
-	chassis.moveToPose(-14.5, 16, 91, 1600, {.forwards = false,.lead=0.1,.maxSpeed = 70, .minSpeed = 60, .earlyExitRange = 0.6}); //-14.5=>-18.5, delta 91=>90
+	chassis.moveToPose(-16, 16, 91, 1600, {.forwards = false,.lead=0.1,.maxSpeed = 70, .minSpeed = 60, .earlyExitRange = 0.6}); //-14.5=>-16, delta 91=>90
 	pros::delay(200);
 	loader.set_value(false);
 	pros::delay(200);
@@ -336,7 +336,7 @@ pros::delay(2000);
 	aligner.set_value(false);
 	chassis.moveToPose(5, 25, 20,500, {.lead = 0.2, .minSpeed = 50, .earlyExitRange = 5});
 	chassis.moveToPose(36, 30, 88,700, {.lead = 0.5, .maxSpeed=120,.minSpeed = 80, .earlyExitRange = 3});
-	chassis.moveToPose(60, 35, 85,2800, {.lead = 0.1, .maxSpeed=90,.minSpeed = 60, .earlyExitRange = 3});//Frank change: 50=>60, 89=>87, 1600=>2400, 110=>90, 90=>60
+	chassis.moveToPose(60, 35.5, 87,2500, {.lead = 0.1, .maxSpeed=90,.minSpeed = 60, .earlyExitRange = 3});//Frank change: 50=>60, 35=>35.5, 89=>87, 1600=>2400, 110=>90, 90=>60
 	wheelup.set_value(true);
 	pros::delay(200);
 	loader.set_value(true);
