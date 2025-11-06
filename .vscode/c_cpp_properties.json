@@ -12,7 +12,8 @@
         "d:\\HuaweiMoveData\\Users\\82024\\Desktop\\pb V1.X 75533M\\include",
         "d:\\HuaweiMoveData\\Users\\82024\\Desktop\\pb V1.X Skill\\include",
         "/Users/frank.zuo/Desktop/Robotics/2025_2026/VRC/pb V1.X Skill 65/include",
-        "/Users/frank.zuo/Desktop/Robotics/2025_2026/VRC/2025_2026_68699A_drive/include"
+        "/Users/frank.zuo/Desktop/Robotics/2025_2026/VRC/2025_2026_68699A_drive/include",
+        "/Users/frank.zuo/Desktop/Robotics/2025_2026/VRC/2025_2026_68699A_skill_65/include"
       ],
       "defines": [
         "_DEBUG",
@@ -28,7 +29,7 @@
       ],
       "browse": {
         "path": [
-          "/Users/frank.zuo/Desktop/Robotics/2025_2026/VRC/2025_2026_68699A_drive"
+          "/Users/frank.zuo/Desktop/Robotics/2025_2026/VRC/2025_2026_68699A_skill_65"
         ],
         "limitSymbolsToIncludedHeaders": true,
         "databaseFilename": ""
