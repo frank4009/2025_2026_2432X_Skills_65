@@ -50,7 +50,7 @@ void intakecoast(){
 
 
 void initialize() {
-	eliminate.set_value(false);
+	// eliminate.set_value(true);
 	pros::lcd::initialize();
     chassis.calibrate(); // calibrate sensors
 	chassis.setPose(0,0,0);//set [pose]
@@ -200,6 +200,7 @@ void score(){
 
 
 void skills(){
+	eliminate.set_value(true);
 	chassis.setPose(-13.476,1.68,0);
  chassis.setBrakeMode(MOTOR_BRAKE_BRAKE);
 	//step 1
