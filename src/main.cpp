@@ -232,7 +232,7 @@ score();
 	chassis.moveToPose(-18, -29, 90, 1000,{.minSpeed = 60, .earlyExitRange = 0.3}); //original x=-15-lily 
 	chassis.turnToHeading(219, 800, {.minSpeed = 20, .earlyExitRange = 0.1});
 	chassis.moveToPose(-28.5, -42, 220, 1000, {.minSpeed = 80, .earlyExitRange = 0.3});//orriginally 220
-	chassis.moveToPose(-100, -50, 268, 2000, {.minSpeed = 80, .earlyExitRange = 0.3});//Frank change: -45=>-50, 2=>0.3; -105=>-100
+	chassis.moveToPose(-103, -50, 268, 2000, {.minSpeed = 80, .earlyExitRange = 0.3});//Frank change: -45=>-50, 2=>0.3; -105=>-100 -100=>-103
 	// chassis.moveToPoint(-105, -52, 2000, {.minSpeed = 80, .earlyExitRange = 0.3});
 	chassis.waitUntilDone();
 	pros::delay(200);
@@ -248,7 +248,7 @@ score();
 	chassis.moveToPose(0, 16, 0, 800, {.lead = 0., .maxSpeed = 70, .minSpeed = 50, .earlyExitRange = 0.3});
 	chassis.turnToHeading(-90,700,{.minSpeed = 20,.earlyExitRange = 0.1});
 	// //loader 2
-	chassis.moveToPose(-15, 17,  -90, 1500, {.lead = 0, .maxSpeed = 70, .minSpeed = 65, .earlyExitRange = 0.7});
+	chassis.moveToPose(-16, 17,  -90, 1500, {.lead = 0, .maxSpeed = 70, .minSpeed = 65, .earlyExitRange = 0.7}); //neal -15 => -16
 	pros::delay(2500);
 	chassis.moveToPose(21, 16, -89, 1500, {.forwards = false,.lead=0.1,.maxSpeed = 70, .minSpeed = 60, .earlyExitRange = 0.6});
 
