@@ -304,7 +304,7 @@ score();
 	chassis.moveToPose(-15, -31, 90, 1000,{.minSpeed = 60, .earlyExitRange = 0.3});
 	chassis.turnToHeading(219, 800, {.minSpeed = 20, .earlyExitRange = 0.1});
 	chassis.moveToPose(-23, -43, 220, 1000, {.minSpeed = 80, .earlyExitRange = 2});
-	chassis.moveToPose(-110, -48, 268, 2000, {.minSpeed = 80, .earlyExitRange = 2}); //-45=>-48
+	chassis.moveToPose(-113, -48, 268, 2000, {.minSpeed = 80, .earlyExitRange = 2}); //-45=>-48
 	chassis.waitUntilDone();
 	pros::delay(200);
 	chassis.turnToHeading(360, 700, {.minSpeed = 30, .earlyExitRange = 0.1});
@@ -317,7 +317,7 @@ score();
 	chassis.setPose(0, 0, 0);
 	chassis.moveToPose(0, 14, 0, 800, {.lead = 0., .maxSpeed = 70, .minSpeed = 50, .earlyExitRange = 0.3});//Frank change: 0=>-3
 	// //loader 4
-	chassis.moveToPose(-15, 16,  -90, 1800, {.lead = 0, .maxSpeed = 60, .minSpeed = 55, .earlyExitRange = 0.7});
+	chassis.moveToPose(-18, 16,  -90, 1800, {.lead = 0, .maxSpeed = 60, .minSpeed = 55, .earlyExitRange = 0.7});
 	pros::delay(3000);
 	chassis.moveToPose(23, 16.5, -91, 1500, {.forwards = false,.lead=0.1,.maxSpeed = 70, .minSpeed = 60, .earlyExitRange = 0.6});
 

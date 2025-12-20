@@ -5,12 +5,15 @@
             "-c",
             "-target",
             "armv7ar-none-none-eabi",
-            "-isystem/Users/frank.zuo/Library/Application Support/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-macos/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1",
-            "-isystem/Users/frank.zuo/Library/Application Support/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-macos/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7-a+simd/softfp",
-            "-isystem/Users/frank.zuo/Library/Application Support/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-macos/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward",
-            "-isystem/Users/frank.zuo/Library/Application Support/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-macos/bin/../lib/gcc/arm-none-eabi/13.3.1/include",
-            "-isystem/Users/frank.zuo/Library/Application Support/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-macos/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed",
-            "-isystem/Users/frank.zuo/Library/Application Support/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-macos/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include",
+            "-fno-ms-extensions",
+            "-fno-ms-compatibility",
+            "-fno-delayed-template-parsing",
+            "-isystemC:/Users/onsit/AppData/Roaming/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-windows/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1",
+            "-isystemC:/Users/onsit/AppData/Roaming/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-windows/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7-a+simd/softfp",
+            "-isystemC:/Users/onsit/AppData/Roaming/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-windows/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward",
+            "-isystemC:/Users/onsit/AppData/Roaming/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-windows/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/include",
+            "-isystemC:/Users/onsit/AppData/Roaming/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-windows/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed",
+            "-isystemC:/Users/onsit/AppData/Roaming/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-windows/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include",
             "-iquote./include",
             "-iquote./include/./",
             "-mcpu=cortex-a9",
@@ -32,10 +35,10 @@
             "--std=gnu++20",
             "-o",
             "bin/robot-config.cpp.o",
-            "src/robot-config.cpp"
+            "src\\robot-config.cpp"
         ],
-        "directory": "/Users/frank.zuo/Desktop/Robotics/2025_2026/VRC/2025_2026_68699A_drive",
-        "file": "src/robot-config.cpp"
+        "directory": "C:\\Ustar\\Robotics\\2025_2026\\VRC\\2025_2026_68699A_skill_65",
+        "file": "src\\robot-config.cpp"
     },
     {
         "arguments": [
@@ -43,12 +46,15 @@
             "-c",
             "-target",
             "armv7ar-none-none-eabi",
-            "-isystem/Users/frank.zuo/Library/Application Support/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-macos/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1",
-            "-isystem/Users/frank.zuo/Library/Application Support/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-macos/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7-a+simd/softfp",
-            "-isystem/Users/frank.zuo/Library/Application Support/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-macos/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward",
-            "-isystem/Users/frank.zuo/Library/Application Support/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-macos/bin/../lib/gcc/arm-none-eabi/13.3.1/include",
-            "-isystem/Users/frank.zuo/Library/Application Support/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-macos/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed",
-            "-isystem/Users/frank.zuo/Library/Application Support/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-macos/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include",
+            "-fno-ms-extensions",
+            "-fno-ms-compatibility",
+            "-fno-delayed-template-parsing",
+            "-isystemC:/Users/onsit/AppData/Roaming/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-windows/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1",
+            "-isystemC:/Users/onsit/AppData/Roaming/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-windows/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7-a+simd/softfp",
+            "-isystemC:/Users/onsit/AppData/Roaming/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-windows/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward",
+            "-isystemC:/Users/onsit/AppData/Roaming/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-windows/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/include",
+            "-isystemC:/Users/onsit/AppData/Roaming/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-windows/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed",
+            "-isystemC:/Users/onsit/AppData/Roaming/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-windows/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include",
             "-iquote./include",
             "-iquote./include/./",
             "-mcpu=cortex-a9",
@@ -70,9 +76,9 @@
             "--std=gnu++20",
             "-o",
             "bin/main.cpp.o",
-            "src/main.cpp"
+            "src\\main.cpp"
         ],
-        "directory": "/Users/frank.zuo/Desktop/Robotics/2025_2026/VRC/2025_2026_68699A_drive",
-        "file": "src/main.cpp"
+        "directory": "C:\\Ustar\\Robotics\\2025_2026\\VRC\\2025_2026_68699A_skill_65",
+        "file": "src\\main.cpp"
     }
 ]
