@@ -14,14 +14,15 @@
         "/Users/frank.zuo/Desktop/Robotics/2025_2026/VRC/pb V1.X Skill 65/include",
         "/Users/frank.zuo/Desktop/Robotics/2025_2026/VRC/2025_2026_68699A_drive/include",
         "/Users/frank.zuo/Desktop/Robotics/2025_2026/VRC/2025_2026_68699A_skill_65/include",
-        "c:\\Ustar\\Robotics\\2025_2026\\VRC\\2025_2026_68699A_skill_65\\include"
+        "c:\\Ustar\\Robotics\\2025_2026\\VRC\\2025_2026_68699A_skill_65\\include",
+        "/Users/frank.zuo/Desktop/Robotics/2025_2026/VRC/2432X/2432X_skill_65/include"
       ],
       "defines": [
         "_DEBUG",
         "UNICODE",
         "_UNICODE"
       ],
-      "compilerPath": "c:\\Users\\onsit\\AppData\\Roaming\\Code\\User\\globalStorage\\sigbots.pros\\install\\pros-toolchain-windows\\usr\\bin\\arm-none-eabi-g++",
+      "compilerPath": "/Users/frank.zuo/Library/Application Support/Code/User/globalStorage/sigbots.pros/install/pros-toolchain-macos/bin/arm-none-eabi-g++",
       "cStandard": "gnu11",
       "cppStandard": "gnu++20",
       "intelliSenseMode": "gcc-arm",
@@ -30,7 +31,7 @@
       ],
       "browse": {
         "path": [
-          "c:\\Ustar\\Robotics\\2025_2026\\VRC\\2025_2026_68699A_skill_65"
+          "/Users/frank.zuo/Desktop/Robotics/2025_2026/VRC/2432X/2432X_skill_65"
         ],
         "limitSymbolsToIncludedHeaders": true,
         "databaseFilename": ""

@@ -1,7 +1,7 @@
 {
   "py/object": "pros.conductor.project.Project",
   "py/state": {
-    "project_name": "pb skill",
+    "project_name": "2432X_Auto",
     "target": "v5",
     "templates": {
       "LemLib": {

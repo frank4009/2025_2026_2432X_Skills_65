@@ -11,11 +11,11 @@ pros::Motor intakeM(-2,pros::MotorGearset::green);
 //back roller
 pros::Motor intakeB(12,pros::MotorGearset::green);
 //drivetrain left
-pros::MotorGroup leftMotors({-20, 18, -19},pros::MotorGearset::blue);
-pros::MotorGroup rightMotors({10, -8, 9}, pros::MotorGearset::blue);
+pros::MotorGroup leftMotors({20, -18, -19},pros::MotorGearset::blue);//-19=>19
+pros::MotorGroup rightMotors({-10, 8, 9}, pros::MotorGearset::blue);//9=>-9
 //odometry wheels
 pros::Rotation verticalEnc(5);
-pros::Rotation horizontalEnc(15);
+pros::Rotation horizontalEnc(-15);
 //pneumatics
 pros::ADIDigitalOut loader(1);
 pros::ADIDigitalOut eliminate(3);
