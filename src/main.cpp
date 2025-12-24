@@ -227,12 +227,12 @@ score();
 
 
 	intaking(600, 200, intake);
-	aligner.set_value(false);
+	aligner.set_value(true);
 
 	chassis.moveToPose(-18, -29, 90, 1000,{.minSpeed = 60, .earlyExitRange = 0.3}); //original x=-15-lily 
 	chassis.turnToHeading(219, 800, {.minSpeed = 20, .earlyExitRange = 0.1});
 	chassis.moveToPose(-28.5, -42, 220, 1000, {.minSpeed = 80, .earlyExitRange = 0.3});//orriginally 220
-	chassis.moveToPose(-103, -50, 268, 2000, {.minSpeed = 80, .earlyExitRange = 0.3});//Frank change: -45=>-50, 2=>0.3; -105=>-100 -100=>-103
+	chassis.moveToPose(-103, -45, 268, 2000, {.minSpeed = 80, .earlyExitRange = 0.3});//Frank change: -45=>-50, 2=>0.3; -105=>-100 -100=>-103
 	// chassis.moveToPoint(-105, -52, 2000, {.minSpeed = 80, .earlyExitRange = 0.3});
 	chassis.waitUntilDone();
 	pros::delay(200);
@@ -271,7 +271,7 @@ score();
     chassis.setBrakeMode(MOTOR_BRAKE_BRAKE);
 	chassis.moveToPose(0, 8, 0,500, {.maxSpeed = 80, .minSpeed = 60, .earlyExitRange = 0.7});
 	chassis.turnToHeading(-90, 700, {.minSpeed = 20, .earlyExitRange = 0.3});
-	aligner.set_value(false);
+	aligner.set_value(true);
 	chassis.moveToPose(100, 9, -90,  3500, {.forwards=false,.maxSpeed = 100, .minSpeed = 60, .earlyExitRange = 3});
 	chassis.moveToPose(120, 9, -89,  1000, {.forwards=false,.maxSpeed = 70, .minSpeed = 40, .earlyExitRange = 2});
 	pros::delay(500);
@@ -298,13 +298,13 @@ score();
 	intaking(600, 200, intake);
 
 	chassis.setPose(-33,-30,89);
-	aligner.set_value(false);
+	aligner.set_value(true);
 
 
 	chassis.moveToPose(-15, -31, 90, 1000,{.minSpeed = 60, .earlyExitRange = 0.3});
 	chassis.turnToHeading(219, 800, {.minSpeed = 20, .earlyExitRange = 0.1});
 	chassis.moveToPose(-23, -43, 220, 1000, {.minSpeed = 80, .earlyExitRange = 2});
-	chassis.moveToPose(-113, -48, 268, 2000, {.minSpeed = 80, .earlyExitRange = 2}); //-45=>-48
+	chassis.moveToPose(-113, -45, 268, 2000, {.minSpeed = 80, .earlyExitRange = 2}); //-45=>-48
 	chassis.waitUntilDone();
 	pros::delay(200);
 	chassis.turnToHeading(360, 700, {.minSpeed = 30, .earlyExitRange = 0.1});
@@ -334,7 +334,7 @@ pros::delay(2000);
 	intaking(-600, 200, intake);
 	chassis.setPose(0, 0,0);
 	chassis.setBrakeMode(MOTOR_BRAKE_BRAKE);
-	aligner.set_value(false);
+	aligner.set_value(true);
 	chassis.moveToPose(5, 25, 20,500, {.lead = 0.2, .minSpeed = 50, .earlyExitRange = 5});
 	chassis.moveToPose(36, 30, 88,700, {.lead = 0.5, .maxSpeed=120,.minSpeed = 80, .earlyExitRange = 3});
 	chassis.moveToPose(60, 35.5, 89, 2300, {.lead = 0.1, .maxSpeed=90,.minSpeed = 60, .earlyExitRange = 3});//Frank change: 50=>60, 35=>35.5, 89=>87, 1600=>2400, 110=>90, 90=>60

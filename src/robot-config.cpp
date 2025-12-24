@@ -20,7 +20,7 @@ pros::Rotation horizontalEnc(-15);
 pros::ADIDigitalOut loader(1);
 pros::ADIDigitalOut eliminate(3);
 pros::ADIDigitalOut wheelup(2);
-pros::ADIDigitalOut aligner(8);
+pros::ADIDigitalOut aligner(1);
 
 pros::Optical optical(13);
 
